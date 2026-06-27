@@ -1,47 +1,30 @@
 # Data Engineering Practice
 
-This repository contains my hands-on Data Engineering learning projects and practice exercises. The goal of this repository is to document my journey in learning data extraction, transformation, loading (ETL), web scraping, databases, and data processing using Python.
+A collection of hands-on Data Engineering projects focused on ETL pipelines, web scraping, data transformation, SQL, and data processing using Python. This repository documents my learning journey through practical implementations and real-world datasets.
 
 ## Projects
 
 ### 01_ETL_Pipeline
 
-A basic ETL pipeline built using Python and Pandas.
+A basic ETL pipeline built using Python for extracting, transforming, and loading data.
 
-**Features**
-
-* Extract data from multiple file formats
-* Transform and clean data
-* Standardize units and formats
-* Generate logs for ETL execution
-* Export transformed data
-
-**Tech Stack**
-
-* Python
-* Pandas
+**Tech Stack:** Python, Pandas
 
 ---
 
 ### 02_Web_Scraping_ETL
 
-A web scraping and ETL project that extracts movie ranking data from a webpage and stores it in structured formats.
+An ETL project that extracts movie ranking data from a webpage, processes it, and stores it in CSV and SQLite formats.
 
-**Features**
+**Tech Stack:** Python, Requests, BeautifulSoup4, Pandas, SQLite3
 
-* Fetch webpage content using Requests
-* Parse HTML using BeautifulSoup
-* Extract and transform movie data
-* Store data in CSV format
-* Load data into SQLite database
+---
 
-**Tech Stack**
+### 03_IMF_GDP_ETL
 
-* Python
-* Requests
-* BeautifulSoup4
-* Pandas
-* SQLite3
+An ETL pipeline that extracts GDP data of countries from an archived Wikipedia page, transforms the data from Million USD to Billion USD, and loads it into CSV and SQLite for analysis.
+
+**Tech Stack:** Python, Requests, BeautifulSoup4, Pandas, NumPy, SQLite3
 
 ---
 
@@ -51,23 +34,22 @@ A web scraping and ETL project that extracts movie ranking data from a webpage a
 Data-Engineering-Practice/
 │
 ├── 01_ETL_Pipeline/
-│
 ├── 02_Web_Scraping_ETL/
+├── 03_IMF_GDP_ETL/
 │
 └── README.md
 ```
 
 ## Skills Practiced
 
-* Python Programming
-* Data Extraction
-* Data Transformation
-* Data Loading (ETL)
+* Python
+* ETL Pipelines
 * Web Scraping
-* Data Cleaning
-* Pandas
-* SQLite
+* Data Cleaning & Transformation
+* Pandas & NumPy
+* SQL & SQLite
 * Data Processing
 
+---
 
-This repository will be continuously updated as I progress through my Data Engineering learning journey.
+More projects will be added as I continue learning and building practical Data Engineering solutions.
